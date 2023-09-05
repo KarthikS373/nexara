@@ -1,0 +1,39 @@
+# Rust
+/target
+**/*.rs.bk
+**/*.rgs
+test.txt
+*.bin
+*.ron
+
+# IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+.idea/
+.idea_modules/
+.atlassian-ide-plugin.xml
+*.sublime-project
+*.sublime-workspace
+*.sublime-settings
+
+# Artifacts & Gradles
+*.iml
+*.ipr
+*.iws
+gradle.xml
+*.gradle.xml
+artifacts
+
+# Log and Debug
+*.lock
+*.log
+
+# Misc
+/cloc
+/*.png
+/save.bin
